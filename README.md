@@ -1,7 +1,5 @@
 <div align="center">
 
-<img src="content.png" alt="BepHax" width="340">
-
 <img src="image1.png" alt="BepHax">
 
 <img src="image2.png" alt="BepHax">
