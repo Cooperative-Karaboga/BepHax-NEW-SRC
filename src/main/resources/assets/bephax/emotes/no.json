@@ -1,0 +1,21 @@
+{
+    "name": "No",
+    "author": "BepHax",
+    "description": "Shake your head in disagreement.",
+    "uuid": "c9c8856b-71c0-4e0f-8707-e7a6846cabb0",
+    "version": 3,
+    "emote": {
+        "beginTick": 4,
+        "endTick": 24,
+        "stopTick": 30,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "head": { "yaw": 0, "pitch": 0 } },
+            { "tick": 4, "easing": "InOutSine", "head": { "yaw": -26, "pitch": 3 } },
+            { "tick": 10, "easing": "InOutSine", "head": { "yaw": 26 } },
+            { "tick": 16, "easing": "InOutSine", "head": { "yaw": -26 } },
+            { "tick": 24, "easing": "InOutSine", "head": { "yaw": 18 } },
+            { "tick": 29, "easing": "InOutSine", "head": { "yaw": 0, "pitch": 0 } }
+        ]
+    }
+}

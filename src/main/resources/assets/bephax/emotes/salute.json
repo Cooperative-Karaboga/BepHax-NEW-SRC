@@ -1,0 +1,19 @@
+{
+    "name": "Salute",
+    "author": "BepHax",
+    "description": "Snap a crisp salute.",
+    "uuid": "81531c61-e5ad-43f8-915f-e6d27b7e5de1",
+    "version": 3,
+    "emote": {
+        "beginTick": 4,
+        "endTick": 18,
+        "stopTick": 25,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "rightArm": { "pitch": 0, "yaw": 0 }, "head": { "pitch": 0 } },
+            { "tick": 4, "easing": "OutCubic", "rightArm": { "pitch": -155, "yaw": -25 }, "head": { "pitch": -3 } },
+            { "tick": 18, "easing": "InOutSine", "rightArm": { "pitch": -155, "yaw": -25 }, "head": { "pitch": -3 } },
+            { "tick": 24, "easing": "InOutSine", "rightArm": { "pitch": 0, "yaw": 0 }, "head": { "pitch": 0 } }
+        ]
+    }
+}

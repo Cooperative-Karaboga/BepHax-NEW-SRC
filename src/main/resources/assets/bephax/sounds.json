@@ -1,0 +1,9 @@
+{
+	"patpat": {
+		"sounds": [
+			"bephax:patpat/pat",
+			"bephax:patpat/pat1",
+			"bephax:patpat/pat2"
+		]
+	}
+}

@@ -1,0 +1,19 @@
+{
+    "name": "T-Pose",
+    "author": "BepHax",
+    "description": "Assert dominance. Holds until stopped.",
+    "uuid": "745d8ccc-6ea8-400f-9ef2-b91ef8113713",
+    "version": 3,
+    "emote": {
+        "beginTick": 4,
+        "endTick": 8,
+        "isLoop": true,
+        "returnTick": 4,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "rightArm": { "roll": 0 }, "leftArm": { "roll": 0 } },
+            { "tick": 4, "easing": "OutCubic", "rightArm": { "roll": 88 }, "leftArm": { "roll": -88 } },
+            { "tick": 8, "easing": "Linear", "rightArm": { "roll": 88 }, "leftArm": { "roll": -88 } }
+        ]
+    }
+}

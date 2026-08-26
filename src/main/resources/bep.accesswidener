@@ -1,0 +1,20 @@
+accessWidener	v1	named
+accessible	method	net/minecraft/client/multiplayer/MultiPlayerGameMode	ensureHasSentCarriedItem	()V
+accessible	method	net/minecraft/client/multiplayer/MultiPlayerGameMode	startPrediction	(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/client/multiplayer/prediction/PredictiveAction;)V
+accessible	method	net/minecraft/client/multiplayer/ClientLevel	getBlockStatePredictionHandler	()Lnet/minecraft/client/multiplayer/prediction/BlockStatePredictionHandler;
+accessible	method	com/mojang/blaze3d/platform/NativeImage	setPixelABGR	(III)V
+accessible	class	net/minecraft/network/protocol/game/ServerboundInteractPacket$ActionType
+accessible	class	net/minecraft/network/protocol/game/ServerboundInteractPacket$Action
+accessible	method	net/minecraft/network/protocol/game/ServerboundInteractPacket$Action	getType	()Lnet/minecraft/network/protocol/game/ServerboundInteractPacket$ActionType;
+accessible	method	net/minecraft/client/gui/screens/Screen	addRenderableWidget	(Lnet/minecraft/client/gui/components/events/GuiEventListener;)Lnet/minecraft/client/gui/components/events/GuiEventListener;
+accessible	class	net/minecraft/network/protocol/game/ServerboundInteractPacket$ActionType
+accessible	field	net/minecraft/network/protocol/game/VecDeltaCodec	base	Lnet/minecraft/world/phys/Vec3;
+accessible	field	net/minecraft/world/entity/LivingEntity	swimAmount	F
+accessible	field	net/minecraft/world/entity/LivingEntity	swimAmountO	F
+accessible	method	net/minecraft/client/Minecraft	startAttack	()Z
+extendable	method	net/minecraft/client/gui/screens/multiplayer/ServerSelectionList$Entry	matches	(Lnet/minecraft/client/gui/screens/multiplayer/ServerSelectionList$Entry;)Z
+accessible	class	net/minecraft/client/particle/FireworkParticles$SparkParticle
+accessible	class	net/minecraft/client/particle/FireworkParticles$OverlayParticle
+accessible	method	net/minecraft/client/multiplayer/ClientLevel	doAddParticle	(Lnet/minecraft/core/particles/ParticleOptions;ZZDDDDDD)V
+accessible	method	net/minecraft/world/entity/animal/sniffer/Sniffer	getState	()Lnet/minecraft/world/entity/animal/sniffer/Sniffer$State;
+accessible	method	net/minecraft/world/entity/animal/feline/Ocelot	isTrusting	()Z

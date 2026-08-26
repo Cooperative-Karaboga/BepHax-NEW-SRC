@@ -1,0 +1,23 @@
+{
+    "name": "Griddy",
+    "author": "BepHax",
+    "description": "Hit the griddy: high knees and swinging arms. Loops until stopped.",
+    "uuid": "89431350-216c-4198-9941-1648dfbe1209",
+    "version": 3,
+    "comment": "torso y moves only the chest box, so head/arm y follow every dip to stay attached.",
+    "emote": {
+        "beginTick": 4,
+        "endTick": 16,
+        "isLoop": true,
+        "returnTick": 4,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "rightArm": { "pitch": 0, "yaw": 0, "y": 2 }, "leftArm": { "pitch": 0, "yaw": 0, "y": 2 }, "rightLeg": { "pitch": 0 }, "leftLeg": { "pitch": 0 }, "torso": { "roll": 0, "y": 0 }, "head": { "pitch": 0, "y": 0 } },
+            { "tick": 4, "easing": "InOutSine", "rightArm": { "pitch": -68, "yaw": 30, "y": 2.8 }, "leftArm": { "pitch": -68, "yaw": 30, "y": 2.8 }, "rightLeg": { "pitch": -58 }, "leftLeg": { "pitch": 10 }, "torso": { "roll": -5, "y": 0.8 }, "head": { "pitch": 7, "y": 0.8 } },
+            { "tick": 7, "easing": "InOutSine", "torso": { "y": 0 }, "head": { "y": 0 }, "rightArm": { "y": 2 }, "leftArm": { "y": 2 } },
+            { "tick": 10, "easing": "InOutSine", "rightArm": { "yaw": -30, "y": 2.8 }, "leftArm": { "yaw": -30, "y": 2.8 }, "leftLeg": { "pitch": -58 }, "rightLeg": { "pitch": 10 }, "torso": { "roll": 5, "y": 0.8 }, "head": { "pitch": -2, "y": 0.8 } },
+            { "tick": 13, "easing": "InOutSine", "torso": { "y": 0 }, "head": { "y": 0 }, "rightArm": { "y": 2 }, "leftArm": { "y": 2 } },
+            { "tick": 16, "easing": "InOutSine", "rightArm": { "yaw": 30, "y": 2.8 }, "leftArm": { "yaw": 30, "y": 2.8 }, "rightLeg": { "pitch": -58 }, "leftLeg": { "pitch": 10 }, "torso": { "roll": -5, "y": 0.8 }, "head": { "pitch": 7, "y": 0.8 } }
+        ]
+    }
+}

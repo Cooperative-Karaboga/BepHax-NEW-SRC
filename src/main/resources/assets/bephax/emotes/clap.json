@@ -1,0 +1,25 @@
+{
+    "name": "Clap",
+    "author": "BepHax",
+    "description": "Applaud with both hands in front of you.",
+    "uuid": "96506a5e-a69c-4a18-9add-d43dfd272fa6",
+    "version": 3,
+    "emote": {
+        "beginTick": 5,
+        "endTick": 27,
+        "stopTick": 34,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "rightArm": { "pitch": 0, "yaw": 0 }, "leftArm": { "pitch": 0, "yaw": 0 } },
+            { "tick": 5, "easing": "InOutSine", "rightArm": { "pitch": -78, "yaw": 0 }, "leftArm": { "pitch": -78, "yaw": 0 } },
+            { "tick": 8, "easing": "InQuad", "rightArm": { "yaw": -17 }, "leftArm": { "yaw": 17 } },
+            { "tick": 11, "easing": "OutQuad", "rightArm": { "yaw": 2 }, "leftArm": { "yaw": -2 } },
+            { "tick": 14, "easing": "InQuad", "rightArm": { "yaw": -17 }, "leftArm": { "yaw": 17 } },
+            { "tick": 17, "easing": "OutQuad", "rightArm": { "yaw": 2 }, "leftArm": { "yaw": -2 } },
+            { "tick": 20, "easing": "InQuad", "rightArm": { "yaw": -17 }, "leftArm": { "yaw": 17 } },
+            { "tick": 23, "easing": "OutQuad", "rightArm": { "yaw": 2 }, "leftArm": { "yaw": -2 } },
+            { "tick": 27, "easing": "InQuad", "rightArm": { "yaw": -17 }, "leftArm": { "yaw": 17 } },
+            { "tick": 33, "easing": "InOutSine", "rightArm": { "pitch": 0, "yaw": 0 }, "leftArm": { "pitch": 0, "yaw": 0 } }
+        ]
+    }
+}

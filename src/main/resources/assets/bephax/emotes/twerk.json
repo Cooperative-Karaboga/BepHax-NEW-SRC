@@ -1,0 +1,25 @@
+{
+    "name": "Twerk",
+    "author": "BepHax",
+    "description": "Get low and bounce. Loops until stopped.",
+    "uuid": "51c49fc1-5e5c-4762-8b1f-0dc44efbdf4e",
+    "version": 3,
+    "applyBendToOtherBones": true,
+    "comment": "Bent-over bounce. The 55deg hinge (bend 0.9599) and torso y/z are HELD all cycle. Head y -1.88 / z -4.79 are solved through the bend-carry matrix so the head pivot lands on the chest's neck end (body pivot, model 0/5.12/-9.83) - the old 2.56/-4.92 buried it mid-back; re-solve if bend or torso y/z change. Motion per cycle: torso pitch pumps 61<->67 (pivots at the NECK, so it swings the hips and the shoulders stay anchored - keep the pump small, 16deg was a seizure), the butt bone does the main bounce (extra geometry from EmoteButt), the head nods -40<->-34 and the knees pump. Head y/z and arm channels key at tick 4 only, so they hold. Cape 55/0.92/-1.77 is solved to CANCEL the bend carry to zero: the cape render layer already rides the pitched body matrix, so any leftover carry double-rotates the cape down through the legs; with the carry nulled it just drapes along the back, and the 45 at the pop frame leaves +10deg of flap kick. Re-solve alongside the head if the bend changes.",
+    "emote": {
+        "beginTick": 4,
+        "endTick": 10,
+        "isLoop": true,
+        "returnTick": 4,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "torso": { "pitch": 0, "bend": 0, "y": 0, "z": 0 }, "head": { "pitch": 0, "y": 0, "z": 0 }, "rightArm": { "pitch": 0, "roll": 0, "y": 2, "z": 0 }, "leftArm": { "pitch": 0, "roll": 0, "y": 2, "z": 0 }, "rightLeg": { "pitch": 0, "roll": 0 }, "leftLeg": { "pitch": 0, "roll": 0 }, "butt": { "pitch": 0, "y": 0 }, "cape": { "pitch": 0, "y": 0, "z": 0 } },
+
+            { "tick": 4, "easing": "InQuad", "torso": { "pitch": 61, "bend": 0.9599, "y": 5.12, "z": -9.83 }, "head": { "pitch": -40, "y": -1.88, "z": -4.79 }, "rightArm": { "pitch": -30, "roll": 15, "y": 4.56, "z": -4.92 }, "leftArm": { "pitch": -30, "roll": -15, "y": 4.56, "z": -4.92 }, "rightLeg": { "pitch": -13, "roll": 5 }, "leftLeg": { "pitch": -13, "roll": -5 }, "butt": { "pitch": -14, "y": 0.6 }, "cape": { "pitch": 55, "y": 0.92, "z": -1.77 } },
+
+            { "tick": 7, "easing": "OutQuad", "torso": { "pitch": 67 }, "head": { "pitch": -34 }, "rightLeg": { "pitch": -3 }, "leftLeg": { "pitch": -3 }, "butt": { "pitch": 24, "y": -1.4 }, "cape": { "pitch": 45 } },
+
+            { "tick": 10, "easing": "InQuad", "torso": { "pitch": 61 }, "head": { "pitch": -40 }, "rightLeg": { "pitch": -13 }, "leftLeg": { "pitch": -13 }, "butt": { "pitch": -14, "y": 0.6 }, "cape": { "pitch": 55 } }
+        ]
+    }
+}

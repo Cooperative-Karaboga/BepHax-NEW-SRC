@@ -1,0 +1,23 @@
+{
+    "name": "Cheer",
+    "author": "BepHax",
+    "description": "Pump both arms in the air and celebrate.",
+    "uuid": "d6652bea-b2fc-4c6a-b1fa-767433d9217f",
+    "version": 3,
+    "comment": "torso y moves only the chest box, so head/arm y follow every dip to stay attached.",
+    "emote": {
+        "beginTick": 4,
+        "endTick": 20,
+        "stopTick": 27,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "rightArm": { "pitch": 0, "roll": 0, "y": 2 }, "leftArm": { "pitch": 0, "roll": 0, "y": 2 }, "head": { "pitch": 0, "y": 0 }, "torso": { "y": 0 } },
+            { "tick": 4, "easing": "OutQuad", "rightArm": { "pitch": -165, "roll": 12, "y": 2 }, "leftArm": { "pitch": -165, "roll": -12, "y": 2 }, "head": { "pitch": -12, "y": 0 }, "torso": { "y": 0 } },
+            { "tick": 8, "easing": "InOutQuad", "rightArm": { "pitch": -140, "y": 3.5 }, "leftArm": { "pitch": -140, "y": 3.5 }, "head": { "y": 1.5 }, "torso": { "y": 1.5 } },
+            { "tick": 12, "easing": "InOutQuad", "rightArm": { "pitch": -165, "y": 2 }, "leftArm": { "pitch": -165, "y": 2 }, "head": { "y": 0 }, "torso": { "y": 0 } },
+            { "tick": 16, "easing": "InOutQuad", "rightArm": { "pitch": -140, "y": 3.5 }, "leftArm": { "pitch": -140, "y": 3.5 }, "head": { "y": 1.5 }, "torso": { "y": 1.5 } },
+            { "tick": 20, "easing": "InOutQuad", "rightArm": { "pitch": -165, "y": 2 }, "leftArm": { "pitch": -165, "y": 2 }, "head": { "y": 0 }, "torso": { "y": 0 } },
+            { "tick": 26, "easing": "InOutSine", "rightArm": { "pitch": 0, "roll": 0, "y": 2 }, "leftArm": { "pitch": 0, "roll": 0, "y": 2 }, "head": { "pitch": 0, "y": 0 }, "torso": { "y": 0 } }
+        ]
+    }
+}

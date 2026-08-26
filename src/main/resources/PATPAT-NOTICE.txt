@@ -1,0 +1,10 @@
+The pat hand texture (assets/bephax/textures/patpat/hand.png) and the pat sounds
+(assets/bephax/sounds/patpat/pat.ogg, pat1.ogg, pat2.ogg) are taken unmodified from
+the PatPat mod by LopyMine (https://github.com/LopyMine/PatPat), licensed under the
+GNU Lesser General Public License v3.0 only (LGPL-3.0-only). A copy of the license is
+included in this jar as LICENSE-LGPL-3.0-PatPat.txt.
+
+These files are plain Minecraft resources and can be viewed, modified or replaced by
+the user with a standard resource pack (namespace "bephax"). Their source is publicly
+available at the repository above. All other code and assets in this jar are original
+to BepHax and are not derived from PatPat.

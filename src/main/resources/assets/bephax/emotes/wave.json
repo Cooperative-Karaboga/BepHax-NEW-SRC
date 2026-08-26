@@ -1,0 +1,22 @@
+{
+    "name": "Wave",
+    "author": "BepHax",
+    "description": "Raise your right arm and wave hello.",
+    "uuid": "33b912f8-0aa0-45e6-a2d4-9b5677e6f35c",
+    "version": 3,
+    "emote": {
+        "beginTick": 6,
+        "endTick": 32,
+        "stopTick": 40,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "rightArm": { "pitch": 0, "yaw": 0, "roll": 0 }, "head": { "roll": 0 } },
+            { "tick": 6, "easing": "InOutSine", "rightArm": { "pitch": -150, "yaw": 0, "roll": -18 }, "head": { "roll": 7 } },
+            { "tick": 12, "easing": "InOutSine", "rightArm": { "roll": 24 } },
+            { "tick": 18, "easing": "InOutSine", "rightArm": { "roll": -28 } },
+            { "tick": 24, "easing": "InOutSine", "rightArm": { "roll": 24 } },
+            { "tick": 32, "easing": "InOutSine", "rightArm": { "roll": -18 } },
+            { "tick": 39, "easing": "InOutSine", "rightArm": { "pitch": 0, "yaw": 0, "roll": 0 }, "head": { "roll": 0 } }
+        ]
+    }
+}

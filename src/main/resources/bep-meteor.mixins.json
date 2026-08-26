@@ -1,0 +1,45 @@
+{
+  "required": false,
+  "package": "bep.hax.mixin.meteor",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "PeekScreenMixin",
+    "ContainerInventoryScreenMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 0
+  },
+  "mixins": [
+    "AutoArmorMixin",
+    "AutoEatMixin",
+    "AutoLogMixin",
+    "AutoSignMixin",
+    "AutoTotemMixin",
+    "AutoTrapMixin",
+    "BetterChatMixin",
+    "CrystalAuraMixin",
+    "KillAuraMixin",
+    "SprintMixin",
+    "SurroundMixin",
+    "BetterTabMixin",
+    "HighwayBuilderMixin",
+    "HighwayBuilderDoubleMineBlockMixin",
+    "HighwayBuilderStateMixin",
+    "MBlockPosMixin",
+    "InventoryTweaksMixin",
+    "CapesMixin",
+    "AutoMendMixin",
+    "NametagsMixin",
+    "NoRenderMixin",
+    "NotifierMixin",
+    "TimerMixin",
+    "VelocityMixin",
+    "OnlinePlayersMixin",
+    "BetterTooltipsMixin",
+    "PacketCancellerMixin",
+    "NoSlowMixin",
+    "PlayerUtilsMixin",
+    "ClientPlayerEntityGrimV3Mixin",
+    "accessor.SettingAccessor"
+  ]
+}

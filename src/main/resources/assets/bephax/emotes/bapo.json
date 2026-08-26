@@ -1,0 +1,24 @@
+{
+    "name": "Bapo",
+    "author": "BepHax",
+    "description": "Low funk squat, hips swinging, arms dangling. Loops until stopped.",
+    "uuid": "2ae5c4b6-87bb-4cb8-9664-f5666c729d7d",
+    "version": 3,
+    "applyBendToOtherBones": true,
+    "comment": "bend is in RADIANS; torso pitch+y+z re-pivot the chest at the hips (30deg / 24deg alternation); head/arm y+z keep them attached.",
+    "emote": {
+        "beginTick": 4,
+        "endTick": 20,
+        "isLoop": true,
+        "returnTick": 4,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "torso": { "pitch": 0, "bend": 0, "y": 0, "z": 0, "roll": 0, "yaw": 0 }, "head": { "pitch": 0, "roll": 0, "yaw": 0, "y": 0, "z": 0 }, "rightArm": { "pitch": 0, "roll": 0, "y": 2, "z": 0 }, "leftArm": { "pitch": 0, "roll": 0, "y": 2, "z": 0 }, "rightLeg": { "pitch": 0, "roll": 0 }, "leftLeg": { "pitch": 0, "roll": 0 } },
+            { "tick": 4, "easing": "InOutSine", "torso": { "pitch": 30, "bend": 0.5236, "y": 1.61, "z": -6.0, "roll": -8, "yaw": -6 }, "head": { "pitch": -14, "roll": 8, "yaw": 6, "y": 0.8, "z": -3.0 }, "rightArm": { "pitch": -16, "roll": 12, "y": 2.8, "z": -3.0 }, "leftArm": { "pitch": -22, "roll": 8, "y": 2.8, "z": -3.0 }, "rightLeg": { "pitch": -8, "roll": 10 }, "leftLeg": { "pitch": -4, "roll": -10 } },
+            { "tick": 8, "easing": "OutQuad", "torso": { "pitch": 24, "bend": 0.4189, "y": 1.04, "z": -4.88, "roll": 0, "yaw": 0 }, "head": { "pitch": -10, "roll": 0, "yaw": 0, "y": 0.52, "z": -2.44 }, "rightArm": { "pitch": -26, "roll": 4, "y": 2.52, "z": -2.44 }, "leftArm": { "pitch": -26, "roll": -4, "y": 2.52, "z": -2.44 }, "rightLeg": { "pitch": -2, "roll": 10 }, "leftLeg": { "pitch": -2, "roll": -10 } },
+            { "tick": 12, "easing": "InOutSine", "torso": { "pitch": 30, "bend": 0.5236, "y": 1.61, "z": -6.0, "roll": 8, "yaw": 6 }, "head": { "pitch": -14, "roll": -8, "yaw": -6, "y": 0.8, "z": -3.0 }, "rightArm": { "pitch": -22, "roll": -8, "y": 2.8, "z": -3.0 }, "leftArm": { "pitch": -16, "roll": -12, "y": 2.8, "z": -3.0 }, "rightLeg": { "pitch": -4, "roll": 10 }, "leftLeg": { "pitch": -8, "roll": -10 } },
+            { "tick": 16, "easing": "OutQuad", "torso": { "pitch": 24, "bend": 0.4189, "y": 1.04, "z": -4.88, "roll": 0, "yaw": 0 }, "head": { "pitch": -10, "roll": 0, "yaw": 0, "y": 0.52, "z": -2.44 }, "rightArm": { "pitch": -26, "roll": 4, "y": 2.52, "z": -2.44 }, "leftArm": { "pitch": -26, "roll": -4, "y": 2.52, "z": -2.44 }, "rightLeg": { "pitch": -2, "roll": 10 }, "leftLeg": { "pitch": -2, "roll": -10 } },
+            { "tick": 20, "easing": "InOutSine", "torso": { "pitch": 30, "bend": 0.5236, "y": 1.61, "z": -6.0, "roll": -8, "yaw": -6 }, "head": { "pitch": -14, "roll": 8, "yaw": 6, "y": 0.8, "z": -3.0 }, "rightArm": { "pitch": -16, "roll": 12, "y": 2.8, "z": -3.0 }, "leftArm": { "pitch": -22, "roll": 8, "y": 2.8, "z": -3.0 }, "rightLeg": { "pitch": -8, "roll": 10 }, "leftLeg": { "pitch": -4, "roll": -10 } }
+        ]
+    }
+}

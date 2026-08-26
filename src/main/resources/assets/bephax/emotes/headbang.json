@@ -1,0 +1,22 @@
+{
+    "name": "Headbang",
+    "author": "BepHax",
+    "description": "Throw your head to the beat. Loops until stopped.",
+    "uuid": "ebf8884d-d465-4470-9d33-b43bb0a5c77d",
+    "version": 3,
+    "applyBendToOtherBones": true,
+    "comment": "bend is in RADIANS; torso pitch+y+z re-pivot the chest at the hips (26deg fwd / -8deg back whip); head/arm y+z keep them attached.",
+    "emote": {
+        "beginTick": 4,
+        "endTick": 12,
+        "isLoop": true,
+        "returnTick": 4,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "torso": { "pitch": 0, "bend": 0, "y": 0, "z": 0 }, "head": { "pitch": 0, "y": 0, "z": 0 }, "rightArm": { "pitch": 0, "roll": 0, "y": 2, "z": 0 }, "leftArm": { "pitch": 0, "roll": 0, "y": 2, "z": 0 }, "rightLeg": { "pitch": 0 }, "leftLeg": { "pitch": 0 } },
+            { "tick": 4, "easing": "InQuad", "torso": { "pitch": 26, "bend": 0.4538, "y": 1.21, "z": -5.26 }, "head": { "pitch": 44, "y": 0.61, "z": -2.63 }, "rightArm": { "pitch": -26, "roll": 38, "y": 2.61, "z": -2.63 }, "leftArm": { "pitch": -26, "roll": -38, "y": 2.61, "z": -2.63 }, "rightLeg": { "pitch": 6 }, "leftLeg": { "pitch": 6 } },
+            { "tick": 8, "easing": "OutQuad", "torso": { "pitch": -8, "bend": -0.1396, "y": 0.12, "z": 1.67 }, "head": { "pitch": -26, "y": 0.06, "z": 0.84 }, "rightArm": { "pitch": -34, "roll": 44, "y": 2.06, "z": 0.84 }, "leftArm": { "pitch": -34, "roll": -44, "y": 2.06, "z": 0.84 }, "rightLeg": { "pitch": -4 }, "leftLeg": { "pitch": -4 } },
+            { "tick": 12, "easing": "InQuad", "torso": { "pitch": 26, "bend": 0.4538, "y": 1.21, "z": -5.26 }, "head": { "pitch": 44, "y": 0.61, "z": -2.63 }, "rightArm": { "pitch": -26, "roll": 38, "y": 2.61, "z": -2.63 }, "leftArm": { "pitch": -26, "roll": -38, "y": 2.61, "z": -2.63 }, "rightLeg": { "pitch": 6 }, "leftLeg": { "pitch": 6 } }
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "name": "Point",
+    "author": "BepHax",
+    "description": "Point straight ahead with your right arm.",
+    "uuid": "931b2bda-a25e-4e55-957a-88c46f5e9a7b",
+    "version": 3,
+    "emote": {
+        "beginTick": 6,
+        "endTick": 24,
+        "stopTick": 32,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "rightArm": { "pitch": 0, "yaw": 0 }, "head": { "pitch": 0 } },
+            { "tick": 6, "easing": "OutCubic", "rightArm": { "pitch": -92, "yaw": -6 }, "head": { "pitch": 5 } },
+            { "tick": 24, "easing": "InOutSine", "rightArm": { "pitch": -92, "yaw": -6 }, "head": { "pitch": 5 } },
+            { "tick": 31, "easing": "InOutSine", "rightArm": { "pitch": 0, "yaw": 0 }, "head": { "pitch": 0 } }
+        ]
+    }
+}

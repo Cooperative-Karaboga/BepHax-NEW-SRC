@@ -1,0 +1,22 @@
+{
+    "name": "Floss",
+    "author": "BepHax",
+    "description": "Swing your arms past your hips. Loops until stopped.",
+    "uuid": "4dbe78d8-7188-4e78-b15f-d414d36510f2",
+    "version": 3,
+    "emote": {
+        "beginTick": 4,
+        "endTick": 16,
+        "isLoop": true,
+        "returnTick": 4,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutCubic", "rightArm": { "pitch": 0, "roll": 0 }, "leftArm": { "pitch": 0, "roll": 0 }, "torso": { "roll": 0, "yaw": 0 }, "head": { "roll": 0 } },
+            { "tick": 4, "easing": "InOutCubic", "rightArm": { "pitch": -14, "roll": 52 }, "leftArm": { "pitch": -24, "roll": 52 }, "torso": { "roll": 7, "yaw": -6 }, "head": { "roll": -5 } },
+            { "tick": 7, "easing": "InOutCubic", "rightArm": { "pitch": -20, "roll": 0 }, "leftArm": { "pitch": -20, "roll": 0 }, "torso": { "roll": 0, "yaw": 0 }, "head": { "roll": 0 } },
+            { "tick": 10, "easing": "InOutCubic", "rightArm": { "pitch": -24, "roll": -52 }, "leftArm": { "pitch": -14, "roll": -52 }, "torso": { "roll": -7, "yaw": 6 }, "head": { "roll": 5 } },
+            { "tick": 13, "easing": "InOutCubic", "rightArm": { "pitch": -20, "roll": 0 }, "leftArm": { "pitch": -20, "roll": 0 }, "torso": { "roll": 0, "yaw": 0 }, "head": { "roll": 0 } },
+            { "tick": 16, "easing": "InOutCubic", "rightArm": { "pitch": -14, "roll": 52 }, "leftArm": { "pitch": -24, "roll": 52 }, "torso": { "roll": 7, "yaw": -6 }, "head": { "roll": -5 } }
+        ]
+    }
+}

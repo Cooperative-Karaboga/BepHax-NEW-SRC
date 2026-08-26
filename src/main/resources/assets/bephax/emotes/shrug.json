@@ -1,0 +1,19 @@
+{
+    "name": "Shrug",
+    "author": "BepHax",
+    "description": "Who knows? Raise your arms in a shrug.",
+    "uuid": "84e26351-cd05-4fdf-a998-2eab5aa22fbc",
+    "version": 3,
+    "emote": {
+        "beginTick": 5,
+        "endTick": 18,
+        "stopTick": 25,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "rightArm": { "pitch": 0, "roll": 0 }, "leftArm": { "pitch": 0, "roll": 0 }, "head": { "roll": 0 } },
+            { "tick": 5, "easing": "InOutSine", "rightArm": { "pitch": -30, "roll": 40 }, "leftArm": { "pitch": -30, "roll": -40 }, "head": { "roll": 8 } },
+            { "tick": 18, "easing": "InOutSine", "rightArm": { "pitch": -30, "roll": 40 }, "leftArm": { "pitch": -30, "roll": -40 }, "head": { "roll": 8 } },
+            { "tick": 24, "easing": "InOutSine", "rightArm": { "pitch": 0, "roll": 0 }, "leftArm": { "pitch": 0, "roll": 0 }, "head": { "roll": 0 } }
+        ]
+    }
+}

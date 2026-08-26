@@ -1,0 +1,20 @@
+{
+    "name": "Think",
+    "author": "BepHax",
+    "description": "Hand to your chin, weighing it up.",
+    "uuid": "807d06a0-1ac0-4a5e-b9d9-88e0cabcdfcb",
+    "version": 3,
+    "emote": {
+        "beginTick": 6,
+        "endTick": 30,
+        "stopTick": 40,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "torso": { "yaw": 0, "pitch": 0 }, "head": { "pitch": 0, "roll": 0, "yaw": 0 }, "rightArm": { "pitch": 0, "roll": 0, "yaw": 0 }, "leftArm": { "pitch": 0, "roll": 0, "yaw": 0 } },
+            { "tick": 6, "easing": "OutCubic", "torso": { "yaw": -5, "pitch": 5 }, "head": { "pitch": 12, "roll": -9, "yaw": -10 }, "rightArm": { "pitch": -122, "roll": 14, "yaw": -26 }, "leftArm": { "pitch": -22, "roll": -14, "yaw": 0 } },
+            { "tick": 18, "easing": "InOutSine", "torso": { "yaw": -7, "pitch": 6 }, "head": { "pitch": 15, "roll": -14, "yaw": -14 }, "rightArm": { "pitch": -126, "roll": 12, "yaw": -28 }, "leftArm": { "pitch": -22, "roll": -14, "yaw": 0 } },
+            { "tick": 30, "easing": "InOutSine", "torso": { "yaw": -5, "pitch": 5 }, "head": { "pitch": 12, "roll": -9, "yaw": -10 }, "rightArm": { "pitch": -122, "roll": 14, "yaw": -26 }, "leftArm": { "pitch": -22, "roll": -14, "yaw": 0 } },
+            { "tick": 39, "easing": "InOutCubic", "torso": { "yaw": 0, "pitch": 0 }, "head": { "pitch": 0, "roll": 0, "yaw": 0 }, "rightArm": { "pitch": 0, "roll": 0, "yaw": 0 }, "leftArm": { "pitch": 0, "roll": 0, "yaw": 0 } }
+        ]
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Bow",
+    "author": "BepHax",
+    "description": "Take a polite bow.",
+    "uuid": "c582b8d7-7a23-4de1-8bf5-4f587bc29712",
+    "version": 3,
+    "applyBendToOtherBones": true,
+    "comment": "bend is in RADIANS (PAL never degree-converts bend); torso pitch+y+z re-pivot the chest at the hips; head/arm y+z keep them attached to the leaned chest.",
+    "emote": {
+        "beginTick": 8,
+        "endTick": 24,
+        "stopTick": 36,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "torso": { "pitch": 0, "bend": 0, "y": 0, "z": 0 }, "head": { "pitch": 0, "y": 0, "z": 0 }, "rightArm": { "pitch": 0, "y": 2, "z": 0 }, "leftArm": { "pitch": 0, "y": 2, "z": 0 } },
+            { "tick": 8, "easing": "InOutCubic", "torso": { "pitch": 42, "bend": 0.733, "y": 3.08, "z": -8.03 }, "head": { "pitch": 10, "y": 1.54, "z": -4.01 }, "rightArm": { "pitch": 6, "y": 3.54, "z": -4.01 }, "leftArm": { "pitch": 6, "y": 3.54, "z": -4.01 } },
+            { "tick": 24, "easing": "InOutSine", "torso": { "pitch": 42, "bend": 0.733, "y": 3.08, "z": -8.03 }, "head": { "pitch": 10, "y": 1.54, "z": -4.01 }, "rightArm": { "pitch": 6, "y": 3.54, "z": -4.01 }, "leftArm": { "pitch": 6, "y": 3.54, "z": -4.01 } },
+            { "tick": 35, "easing": "InOutSine", "torso": { "pitch": 0, "bend": 0, "y": 0, "z": 0 }, "head": { "pitch": 0, "y": 0, "z": 0 }, "rightArm": { "pitch": 0, "y": 2, "z": 0 }, "leftArm": { "pitch": 0, "y": 2, "z": 0 } }
+        ]
+    }
+}

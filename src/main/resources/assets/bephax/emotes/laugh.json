@@ -1,0 +1,25 @@
+{
+    "name": "Laugh",
+    "author": "BepHax",
+    "description": "Head back, hand on your belly. Loops until stopped.",
+    "uuid": "1f27a951-abba-4be0-99d2-e8c3d7667a66",
+    "version": 3,
+    "applyBendToOtherBones": true,
+    "comment": "bend is in RADIANS; torso pitch+y+z re-pivot the chest at the hips (-16deg / -2deg lean-back rock); head/arm y+z keep them attached. 8-tick cycle with a ~38deg head throw - the head snap (OutQuad into the beat) is what carries the laugh, the chest rock only supports it.",
+    "emote": {
+        "beginTick": 4,
+        "endTick": 12,
+        "isLoop": true,
+        "returnTick": 4,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "torso": { "pitch": 0, "bend": 0, "y": 0, "z": 0, "roll": 0 }, "head": { "pitch": 0, "roll": 0, "y": 0, "z": 0 }, "rightArm": { "pitch": 0, "roll": 0, "yaw": 0, "y": 2, "z": 0 }, "leftArm": { "pitch": 0, "roll": 0, "y": 2, "z": 0 } },
+
+            { "tick": 4, "easing": "InOutSine", "torso": { "pitch": -16, "bend": -0.2793, "y": 0.46, "z": 3.31, "roll": 4 }, "head": { "pitch": -34, "roll": -5, "y": 0.23, "z": 1.65 }, "rightArm": { "pitch": -72, "roll": 26, "yaw": -26, "y": 2.23, "z": 1.65 }, "leftArm": { "pitch": -18, "roll": -13, "y": 2.23, "z": 1.65 } },
+
+            { "tick": 8, "easing": "OutQuad", "torso": { "pitch": -2, "bend": -0.0349, "y": 0.01, "z": 0.42, "roll": -4 }, "head": { "pitch": -10, "roll": 5, "y": 0.0, "z": 0.21 }, "rightArm": { "pitch": -54, "roll": 19, "yaw": -20, "y": 2.0, "z": 0.21 }, "leftArm": { "pitch": -4, "roll": -6, "y": 2.0, "z": 0.21 } },
+
+            { "tick": 12, "easing": "InOutSine", "torso": { "pitch": -16, "bend": -0.2793, "y": 0.46, "z": 3.31, "roll": 4 }, "head": { "pitch": -34, "roll": -5, "y": 0.23, "z": 1.65 }, "rightArm": { "pitch": -72, "roll": 26, "yaw": -26, "y": 2.23, "z": 1.65 }, "leftArm": { "pitch": -18, "roll": -13, "y": 2.23, "z": 1.65 } }
+        ]
+    }
+}

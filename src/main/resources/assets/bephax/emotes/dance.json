@@ -1,0 +1,23 @@
+{
+    "name": "Dance",
+    "author": "BepHax",
+    "description": "Groove side to side. Loops until stopped.",
+    "uuid": "540dcd92-d94a-461d-86f1-7d5307ad74dd",
+    "version": 3,
+    "comment": "torso y moves only the chest box, so head/arm y follow every dip to stay attached.",
+    "emote": {
+        "beginTick": 4,
+        "endTick": 28,
+        "isLoop": true,
+        "returnTick": 4,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "torso": { "roll": 0, "yaw": 0, "y": 0 }, "head": { "roll": 0, "yaw": 0, "pitch": 0, "y": 0 }, "rightArm": { "pitch": 0, "roll": 0, "y": 2 }, "leftArm": { "pitch": 0, "roll": 0, "y": 2 }, "rightLeg": { "pitch": 0 }, "leftLeg": { "pitch": 0 } },
+            { "tick": 4, "easing": "InOutSine", "torso": { "roll": -7, "yaw": -10, "y": 0.5 }, "head": { "roll": 7, "yaw": 8, "pitch": -3, "y": 0.5 }, "rightArm": { "pitch": -45, "roll": 25, "y": 2.5 }, "leftArm": { "pitch": 30, "roll": -15, "y": 2.5 }, "rightLeg": { "pitch": -16 }, "leftLeg": { "pitch": 12 } },
+            { "tick": 10, "easing": "InOutSine", "torso": { "roll": 0, "yaw": 0, "y": 2 }, "head": { "roll": 0, "yaw": 0, "pitch": 4, "y": 2 }, "rightArm": { "pitch": -12, "roll": 10, "y": 4 }, "leftArm": { "pitch": -12, "roll": -10, "y": 4 }, "rightLeg": { "pitch": 0 }, "leftLeg": { "pitch": 0 } },
+            { "tick": 16, "easing": "InOutSine", "torso": { "roll": 7, "yaw": 10, "y": 0.5 }, "head": { "roll": -7, "yaw": -8, "pitch": -3, "y": 0.5 }, "rightArm": { "pitch": 30, "roll": 15, "y": 2.5 }, "leftArm": { "pitch": -45, "roll": -25, "y": 2.5 }, "rightLeg": { "pitch": 12 }, "leftLeg": { "pitch": -16 } },
+            { "tick": 22, "easing": "InOutSine", "torso": { "roll": 0, "yaw": 0, "y": 2 }, "head": { "roll": 0, "yaw": 0, "pitch": 4, "y": 2 }, "rightArm": { "pitch": -12, "roll": 10, "y": 4 }, "leftArm": { "pitch": -12, "roll": -10, "y": 4 }, "rightLeg": { "pitch": 0 }, "leftLeg": { "pitch": 0 } },
+            { "tick": 28, "easing": "InOutSine", "torso": { "roll": -7, "yaw": -10, "y": 0.5 }, "head": { "roll": 7, "yaw": 8, "pitch": -3, "y": 0.5 }, "rightArm": { "pitch": -45, "roll": 25, "y": 2.5 }, "leftArm": { "pitch": 30, "roll": -15, "y": 2.5 }, "rightLeg": { "pitch": -16 }, "leftLeg": { "pitch": 12 } }
+        ]
+    }
+}

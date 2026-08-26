@@ -1,0 +1,19 @@
+{
+    "name": "Dab",
+    "author": "BepHax",
+    "description": "Hit a dab: face into your elbow, arms to the sky.",
+    "uuid": "3c981910-c553-4dc5-87a4-fba3d2d84d1c",
+    "version": 3,
+    "emote": {
+        "beginTick": 5,
+        "endTick": 16,
+        "stopTick": 23,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "head": { "pitch": 0, "yaw": 0 }, "torso": { "yaw": 0 }, "rightArm": { "pitch": 0, "yaw": 0, "roll": 0 }, "leftArm": { "pitch": 0, "yaw": 0, "roll": 0 } },
+            { "tick": 5, "easing": "OutBack", "head": { "pitch": 22, "yaw": -28 }, "torso": { "yaw": -12 }, "rightArm": { "pitch": -105, "yaw": -50, "roll": -15 }, "leftArm": { "pitch": -125, "yaw": -35, "roll": -10 } },
+            { "tick": 16, "easing": "InOutSine", "head": { "pitch": 22, "yaw": -28 }, "torso": { "yaw": -12 }, "rightArm": { "pitch": -105, "yaw": -50, "roll": -15 }, "leftArm": { "pitch": -125, "yaw": -35, "roll": -10 } },
+            { "tick": 22, "easing": "InOutSine", "head": { "pitch": 0, "yaw": 0 }, "torso": { "yaw": 0 }, "rightArm": { "pitch": 0, "yaw": 0, "roll": 0 }, "leftArm": { "pitch": 0, "yaw": 0, "roll": 0 } }
+        ]
+    }
+}

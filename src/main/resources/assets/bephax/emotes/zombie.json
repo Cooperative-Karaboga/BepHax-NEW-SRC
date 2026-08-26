@@ -1,0 +1,22 @@
+{
+    "name": "Zombie",
+    "author": "BepHax",
+    "description": "Shamble with your arms out. Loops until stopped.",
+    "uuid": "3ce1c6ad-10d0-40fa-9039-d459a51ea845",
+    "version": 3,
+    "applyBendToOtherBones": true,
+    "comment": "bend is in RADIANS; torso pitch+y+z re-pivot the chest at the hips (constant 14deg slump); head/arm y+z keep them attached.",
+    "emote": {
+        "beginTick": 4,
+        "endTick": 24,
+        "isLoop": true,
+        "returnTick": 4,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "torso": { "pitch": 0, "bend": 0, "y": 0, "z": 0, "roll": 0 }, "head": { "pitch": 0, "roll": 0, "y": 0, "z": 0 }, "rightArm": { "pitch": 0, "y": 2, "z": 0 }, "leftArm": { "pitch": 0, "y": 2, "z": 0 }, "rightLeg": { "pitch": 0 }, "leftLeg": { "pitch": 0 } },
+            { "tick": 4, "easing": "InOutSine", "torso": { "pitch": 14, "bend": 0.2443, "y": 0.36, "z": -2.9, "roll": -3 }, "head": { "pitch": 4, "roll": -6, "y": 0.18, "z": -1.45 }, "rightArm": { "pitch": -95, "y": 2.18, "z": -1.45 }, "leftArm": { "pitch": -75, "y": 2.18, "z": -1.45 }, "rightLeg": { "pitch": -15 }, "leftLeg": { "pitch": 10 } },
+            { "tick": 14, "easing": "InOutSine", "torso": { "roll": 3 }, "head": { "roll": 6 }, "rightArm": { "pitch": -75 }, "leftArm": { "pitch": -95 }, "rightLeg": { "pitch": 10 }, "leftLeg": { "pitch": -15 } },
+            { "tick": 24, "easing": "InOutSine", "torso": { "roll": -3 }, "head": { "roll": -6 }, "rightArm": { "pitch": -95 }, "leftArm": { "pitch": -75 }, "rightLeg": { "pitch": -15 }, "leftLeg": { "pitch": 10 } }
+        ]
+    }
+}

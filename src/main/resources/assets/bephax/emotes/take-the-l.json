@@ -1,0 +1,23 @@
+{
+    "name": "Take The L",
+    "author": "BepHax",
+    "description": "L on the forehead, kicks to match. Loops until stopped.",
+    "uuid": "48259aaf-b614-482a-854b-6f591feaaf7f",
+    "version": 3,
+    "comment": "torso y moves only the chest box, so head/arm y follow every dip to stay attached.",
+    "emote": {
+        "beginTick": 4,
+        "endTick": 20,
+        "isLoop": true,
+        "returnTick": 4,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "InOutSine", "rightArm": { "pitch": 0, "yaw": 0, "roll": 0, "y": 2 }, "leftArm": { "y": 2 }, "head": { "yaw": 0, "roll": 0, "y": 0 }, "torso": { "yaw": 0, "roll": 0, "y": 0 }, "leftLeg": { "pitch": 0 }, "rightLeg": { "pitch": 0 } },
+            { "tick": 4, "easing": "InOutSine", "rightArm": { "pitch": -150, "yaw": -35, "roll": 12, "y": 2.8 }, "leftArm": { "y": 2.8 }, "head": { "yaw": -12, "roll": 6, "y": 0.8 }, "torso": { "yaw": -10, "roll": -4, "y": 0.8 }, "leftLeg": { "pitch": -42 }, "rightLeg": { "pitch": 6 } },
+            { "tick": 8, "easing": "InOutSine", "torso": { "y": 0.1 }, "head": { "y": 0.1 }, "rightArm": { "y": 2.1 }, "leftArm": { "y": 2.1 }, "leftLeg": { "pitch": 0 }, "rightLeg": { "pitch": 0 } },
+            { "tick": 12, "easing": "InOutSine", "torso": { "yaw": 10, "roll": 4, "y": 0.8 }, "head": { "y": 0.8 }, "rightArm": { "y": 2.8 }, "leftArm": { "y": 2.8 }, "rightLeg": { "pitch": -42 }, "leftLeg": { "pitch": 6 } },
+            { "tick": 16, "easing": "InOutSine", "torso": { "y": 0.1 }, "head": { "y": 0.1 }, "rightArm": { "y": 2.1 }, "leftArm": { "y": 2.1 }, "leftLeg": { "pitch": 0 }, "rightLeg": { "pitch": 0 } },
+            { "tick": 20, "easing": "InOutSine", "torso": { "yaw": -10, "roll": -4, "y": 0.8 }, "head": { "y": 0.8 }, "rightArm": { "y": 2.8 }, "leftArm": { "y": 2.8 }, "leftLeg": { "pitch": -42 }, "rightLeg": { "pitch": 6 } }
+        ]
+    }
+}

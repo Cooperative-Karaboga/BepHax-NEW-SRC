@@ -1,0 +1,22 @@
+{
+    "name": "Robot",
+    "author": "BepHax",
+    "description": "Beep boop. Stiff robotic poses. Loops until stopped.",
+    "uuid": "ebc84f16-124d-41e9-8d87-e8f2026fb2bc",
+    "version": 3,
+    "emote": {
+        "beginTick": 4,
+        "endTick": 44,
+        "isLoop": true,
+        "returnTick": 4,
+        "degrees": true,
+        "moves": [
+            { "tick": 0, "easing": "OutExpo", "rightArm": { "pitch": 0, "yaw": 0, "roll": 0 }, "leftArm": { "pitch": 0, "yaw": 0, "roll": 0 }, "head": { "yaw": 0, "pitch": 0, "roll": 0 }, "torso": { "yaw": 0 } },
+            { "tick": 4, "easing": "OutExpo", "rightArm": { "pitch": -90, "yaw": 0, "roll": 0 }, "leftArm": { "pitch": -45, "yaw": 0, "roll": -20 }, "head": { "yaw": 18, "pitch": 0, "roll": 0 }, "torso": { "yaw": -6 } },
+            { "tick": 14, "easing": "OutExpo", "rightArm": { "pitch": -90, "yaw": -35 }, "leftArm": { "pitch": -90, "yaw": 0, "roll": 0 }, "head": { "yaw": -14, "pitch": 6 }, "torso": { "yaw": 4 } },
+            { "tick": 24, "easing": "OutExpo", "rightArm": { "pitch": -50, "yaw": 0, "roll": 28 }, "leftArm": { "pitch": -90, "yaw": 25 }, "head": { "yaw": 0, "pitch": -4, "roll": 8 }, "torso": { "yaw": -4 } },
+            { "tick": 34, "easing": "OutExpo", "rightArm": { "pitch": -110, "yaw": -10, "roll": -10 }, "leftArm": { "pitch": -35, "yaw": 0, "roll": -30 }, "head": { "yaw": 12, "pitch": 2, "roll": 0 }, "torso": { "yaw": 6 } },
+            { "tick": 44, "easing": "OutExpo", "rightArm": { "pitch": -90, "yaw": 0, "roll": 0 }, "leftArm": { "pitch": -45, "yaw": 0, "roll": -20 }, "head": { "yaw": 18, "pitch": 0, "roll": 0 }, "torso": { "yaw": -6 } }
+        ]
+    }
+}
