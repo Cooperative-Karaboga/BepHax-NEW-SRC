@@ -42,3 +42,11 @@ Get every mod for your own Minecraft version.
 | [Litematica](https://modrinth.com/mod/litematica) + [MaLiLib](https://modrinth.com/mod/malilib) | `printer`, `printer-materials` HUD |
 
 ---
+
+## Disclaimer
+
+This repository is an independent, unofficial project. It is **not affiliated with, endorsed by, or supported by** the original BepHax client or its developers, nor by Meteor Development, FabricMC, Xaero or Mojang Studios. All names and trademarks belong to their respective owners.
+
+Nothing here is an official release of the original client, and no support, warranty or guarantee of any kind is provided. Use at your own risk.
+
+---
