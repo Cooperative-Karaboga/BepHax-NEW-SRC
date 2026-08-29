@@ -6,7 +6,7 @@
 
 <img src="image3.png" alt="BepHax">
 
-# BepHax
+# BepHax Free
 
 [![Minecraft](https://img.shields.io/badge/Minecraft-1.21.4%20%7C%201.21.5%20%7C%201.21.8%20%7C%201.21.11%20%7C%2026.1.2%20%7C%2026.2-brightgreen?style=for-the-badge)](https://minecraft.net)
 [![Meteor Client](https://img.shields.io/badge/Meteor-Client-8B5CF6?style=for-the-badge)](https://meteorclient.com)
